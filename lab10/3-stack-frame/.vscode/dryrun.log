@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/iliem/Desktop/Programare/iocla1/iocla/laborator/content/interactiune-c-assembly/3-stack-frame'
+nasm -f elf32 -F dwarf -I "../../utils/" print-hello.asm -o print-hello.o
+gcc -m32 -g -Wall -Wextra -Werror -fno-pic -masm=intel main.c -c -o main.o
+gcc print-hello.o main.o -o stack-frame -m32 -no-pie
+make: Leaving directory '/mnt/c/Users/iliem/Desktop/Programare/iocla1/iocla/laborator/content/interactiune-c-assembly/3-stack-frame'
+ 
