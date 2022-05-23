@@ -1,0 +1,5 @@
+make: Entering directory '/mnt/c/Users/iliem/Desktop/Programare/iocla1/iocla/laborator/content/introducere-asamblare/4-sets'
+nasm -f elf32 -F dwarf -I "../../utils/" sets.asm -o sets.o
+gcc sets.o -o sets -m32 -no-pie
+make: Leaving directory '/mnt/c/Users/iliem/Desktop/Programare/iocla1/iocla/laborator/content/introducere-asamblare/4-sets'
+ 

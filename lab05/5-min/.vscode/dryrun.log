@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/introducere-asamblare/5-min'
+nasm -f elf32 -F dwarf -I "../../utils/" min.asm -o min.o
+gcc min.o -o min -m32 -no-pie
+make: Leaving directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/introducere-asamblare/5-min'
+ 

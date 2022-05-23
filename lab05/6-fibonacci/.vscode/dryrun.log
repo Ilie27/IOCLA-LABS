@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/introducere-asamblare/6-fibonacci'
+nasm -f elf32 -F dwarf -I "../../utils/" fibonacci.asm -o fibonacci.o
+gcc fibonacci.o -o fibonacci -m32 -no-pie
+make: Leaving directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/introducere-asamblare/6-fibonacci'
+ 
