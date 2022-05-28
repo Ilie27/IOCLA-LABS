@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/rolul-registrelor-adresare/5-6-7-sum-array'
+nasm -f elf32 -F dwarf -I "../../utils/" sum-array.asm -o sum-array.o
+gcc sum-array.o -o sum-array -m32 -no-pie
+make: Leaving directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/rolul-registrelor-adresare/5-6-7-sum-array'
+ 

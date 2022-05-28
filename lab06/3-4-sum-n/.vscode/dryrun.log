@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/rolul-registrelor-adresare/3-4-sum-n'
+nasm -f elf32 -F dwarf -I "../../utils/" 3sum.asm -o 3sum.o
+ 
+nasm -f elf32 -F dwarf -I "../../utils/" sum_n_square.asm -o sum_n_square.o
+gcc 3sum.o sum_n_square.o -o sum-n -m32 -no-pie
+make: Leaving directory '/mnt/c/Users/iliem/Desktop/Programare/iocla/iocla-git/laborator/content/rolul-registrelor-adresare/3-4-sum-n'
+ 
